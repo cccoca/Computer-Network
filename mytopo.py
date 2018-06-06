@@ -9,7 +9,7 @@ class MyTopo( Topo ):
         # Initialize topology
         Topo.__init__( self )
 
-        # Add hosts and switches
+        # Add hosts
         Host1 = self.addHost( 'h1' )
         Host2 = self.addHost( 'h2' )
         Host3 = self.addHost( 'h3' )
@@ -18,7 +18,8 @@ class MyTopo( Topo ):
         Host6 = self.addHost( 'h6' )
         Host7 = self.addHost( 'h7' )
         Host8 = self.addHost( 'h8' )
-        Switch1 = self.addSwitch( 's1' )
+        # Add switches
+	Switch1 = self.addSwitch( 's1' )
         Switch2 = self.addSwitch( 's2' )
         Switch3 = self.addSwitch( 's3' )
         Switch4 = self.addSwitch( 's4' )
